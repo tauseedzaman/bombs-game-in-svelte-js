@@ -2,7 +2,7 @@
     import {beforeUpdate, afterUpdate, onMount} from 'svelte';
     let attempts =0;
     let interval;
-    let bombs = new Array(50);
+    let bombs = new Array(5);
     let randnum=0;
     let loose = false;
     let win = false;
@@ -52,7 +52,7 @@
 {/if}
 {#if win==true}
     <center>
-        <h1>WOW! Contrage! 🎃</h1>
+        <h1>WOW! Congrats! You Win 🎃</h1>
     </center>
 {/if}
 <style>

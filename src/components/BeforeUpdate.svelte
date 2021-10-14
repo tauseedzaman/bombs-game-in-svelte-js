@@ -2,7 +2,7 @@
     import {beforeUpdate, afterUpdate, onMount} from 'svelte';
     let attempts =0;
     let interval;
-    let bombs = new Array(5);
+    let bombs = new Array(50);
     let randnum=0;
     let loose = false;
     let win = false;
@@ -39,7 +39,7 @@
     }
 </script>
 <h1>Bombs Game</h1>
-<h5>Attempts: {attempts}</h5>
+<h5>Attempts: {attempts} </h5>
 <div class="game">
     {#each bombs as _,i}
     <div class="bomb" style={i == randnum ? '': 'opacity:0.3'} on:click={()=>{handleClick(i)}}>💣</div >

@@ -25,4 +25,8 @@ npn run dev
 <h3>When you win the game</h3>
 <img src="screenshot2.png" />
 
+## How to play 🙂
+```bash
+The game is simple. the bomb is moving every second randomly. all you need is to blast the active bomb 💣. You have total 10 attempts. when you miss active bomb you will loose one attempt, when you loose 10 attempts you will loose the game . and when you blast all 50 bombs. then congrats message will be showed and that's set you are the winner 😅.  
+```
 ## Leave a start if you like this idea 💓
